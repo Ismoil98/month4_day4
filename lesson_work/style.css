@@ -1,0 +1,15 @@
+#row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  width: 30%;
+  padding: 15px;
+}
+
+.card-inner {
+  border: 1px solid #555;
+  border-radius: 10px;
+}
