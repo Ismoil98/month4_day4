@@ -183,14 +183,17 @@
 
 
 // for20 
-let n = +prompt('n=')
-for (let i=1; i<=n; i++) {
-  for (let j=1; j<=i; j++) {
-    console.log(j);
-  }
-}
+// let n = +prompt('n=')
+// for (let i=1; i<=n; i++) {
+//   for (let j=1; j<=i; j++) {
+//     console.log(j);
+//   }
+// }
 
-// whiln1
+
+
+//////////////// WHILE 
+// while1
 // let a = +prompt('a=')
 // let b = +pnompt('b=');
 // while (a >= b) {
@@ -209,10 +212,11 @@ for (let i=1; i<=n; i++) {
 // }
 // console.log(`${s} ta kesma joylashtirish mumkin`);
 
+
+// while3 
 // let n = +prompt("n=")
 // let x = 3;
 // let i = 1;
-
 // while (x<=n) {
 //   if (x==n) {
 //     console.log(`${n} 3 ning ${i} darajasi`);
@@ -222,7 +226,73 @@ for (let i=1; i<=n; i++) {
 // }
 
 
+// while4
+// let n = +prompt('n=');
+// let m = +prompt('m=')
+// let s=0;
+// while (n >= m) {
+//   n -= m;
+//   s++;
+// }
+// console.log(`${s} butun qismi va ${n} qoliq qismi`);
 
-// while1
-// while1
-// while1
+
+// while5
+// let a = +prompt('a=')
+// let s = a % 10;
+// a = Math.floor(a/10)
+// while (a>0) {
+//     s = (s * 10 + (a%10))
+//     a = Math.floor(a/10);
+// }
+// console.log(s);
+
+
+// while6
+// let a = +prompt('a=')
+// let s = 0;
+// let i = 0;
+// while (a>0) {
+//     s += a % 10
+//     a = Math.floor(a/10);
+//     i ++;
+// }
+// console.log(s);
+// console.log(i);
+
+
+// while7
+// let a = +prompt('a=')
+// let x = 0;
+// let i = 0;
+// while (a>0) {
+//     x = a % 10
+//     a = Math.floor(a/10);
+//     if (x == 2) {
+//         i ++;
+//     }
+// }
+// if (i != 0) {
+//     console.log('Berilgan sonda 2 raqami qatnashgan');
+// } else {
+//     console.log('Berilgan sonda 2 raqami qatnashmagan');
+// }
+
+
+
+
+
+// while9
+// let a = +prompt('a=')
+// b = a;
+// let s = a % 10;
+// a = Math.floor(a/10)
+// while (a>0) {
+//     s = (s * 10 + (a%10))
+//     a = Math.floor(a/10);
+// }
+// if (s == b) {
+//     console.log("Polindrom");
+// } else {
+//     console.log('polindrom emas');
+// }
