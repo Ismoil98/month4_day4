@@ -38,17 +38,38 @@
 // }
 
 
-// while1
-let n = +prompt('n=')
-let k = +prompt('k=');
-while (n >= k) {
-  n -= k;
+// whiln1
+// let a = +prompt('a=')
+// let b = +pnompt('b=');
+// while (a >= b) {
+//   a -= b;
+// }
+// console.log(`Qoldiq ${a}`);
+
+
+// while2
+// let a = +prompt('a=')
+// let b = +prompt('b=');
+// let s=0;
+// while (a >= b) {
+//   a -= b;
+//   s++;
+// }
+// console.log(`${s} ta kesma joylashtirish mumkin`);
+
+let n = +prompt("n=")
+let x = 3;
+let i = 1;
+
+while (x<=n) {
+  if (x==n) {
+    console.log(`${n} 3 ning ${i} darajasi`);
+    x *=3;
+    i ++;
+  }
 }
-console.log(`Qoldiq ${n}`);
 
 
-
-// while1
 // while1
 // while1
 // while1
